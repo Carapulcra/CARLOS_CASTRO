@@ -122,7 +122,7 @@ class Afin{
 
 int main(){
 	string mensaje = "zanahorias";
-  Afin a;
+  	Afin a;
 	Afin b(a.get_a(),a.get_b());
 	cout << "Cifrado: " <<a.cifrar(mensaje) << endl;
 	cout << "Descifrado: " <<b.descifrar(a.cifrar(mensaje));
